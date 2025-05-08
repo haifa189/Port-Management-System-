@@ -1,4 +1,4 @@
-# Port-Management-System-
+# Port-Management-System
 Port Management System using Java 
 There are ports, and ships are sailing between them. Ships are carrying the
 following types of containers: basic, heavy, refrigerated, liquid, and each of them should
