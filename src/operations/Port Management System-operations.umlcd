@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Pd2v8AFDEe-bdPyfXj5ZKQ">
+  <modelElement href="Port%20Management%20System-operations.uml#_PlH1kAFDEe-bdPyfXj5ZKQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PmVWgAFDEe-bdPyfXj5ZKQ" source="_PmV9kAFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-operations.uml#_PltEYAFDEe-bdPyfXj5ZKQ"/>
+    <stereotypes xmi:id="_PmVWgQFDEe-bdPyfXj5ZKQ" name="Reference">
+      <modelElement href="Port%20Management%20System-operations.uml#_PltEYgFDEe-bdPyfXj5ZKQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PmVWggFDEe-bdPyfXj5ZKQ" text=""/>
+    <sourceRole xmi:id="_PmVWgwFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="">
+      <modelElement href="Port%20Management%20System-operations.uml#_PltEYQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmVWhAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmVWhQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PmVWhgFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="portList" navigable="true">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlpaAwFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmVWhwFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_PmVWiAFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PmXywAFDEe-bdPyfXj5ZKQ" source="_PmYZ0AFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-operations.uml#_PlsdUAFDEe-bdPyfXj5ZKQ"/>
+    <stereotypes xmi:id="_PmXywQFDEe-bdPyfXj5ZKQ" name="Reference">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlsdUgFDEe-bdPyfXj5ZKQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PmXywgFDEe-bdPyfXj5ZKQ" text=""/>
+    <sourceRole xmi:id="_PmXywwFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlsdUQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmXyxAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmXyxQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PmXyxgFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="containerList" navigable="true">
+      <modelElement href="Port%20Management%20System-operations.uml#_Ploy8QFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmXyxwFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_PmXyyAFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PmaPAAFDEe-bdPyfXj5ZKQ" source="_PmaPCQFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-operations.uml#_PltEYwFDEe-bdPyfXj5ZKQ"/>
+    <stereotypes xmi:id="_PmaPAQFDEe-bdPyfXj5ZKQ" name="Reference">
+      <modelElement href="Port%20Management%20System-operations.uml#_PltEZQFDEe-bdPyfXj5ZKQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PmaPAgFDEe-bdPyfXj5ZKQ" text=""/>
+    <sourceRole xmi:id="_PmaPAwFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="">
+      <modelElement href="Port%20Management%20System-operations.uml#_PltEZAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmaPBAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmaPBQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PmaPBgFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="shipList" navigable="true">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlqBEgFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmaPBwFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_PmaPCAFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PmV9kAFDEe-bdPyfXj5ZKQ" name="PortOperations" associationsOut="_PmVWgAFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-operations.uml#_PlS0sAFDEe-bdPyfXj5ZKQ"/>
+    <visualProperties xmi:id="_PmV9kQFDEe-bdPyfXj5ZKQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PmV9kgFDEe-bdPyfXj5ZKQ" label="+"/>
+    <attributes xmi:id="_PmV9kwFDEe-bdPyfXj5ZKQ" defaultValue="new ArrayList&lt;>()" name="portList">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlpaAwFDEe-bdPyfXj5ZKQ"/>
+      <stereotypes xmi:id="_PmV9lAFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlqBEQFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_PmV9lQFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_PmV9lgFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PmV9lwFDEe-bdPyfXj5ZKQ" name="Port">
+        <modelElement href="Port%20Management%20System-operations.uml#_PllIkAFDEe-bdPyfXj5ZKQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PmV9mAFDEe-bdPyfXj5ZKQ" name="PortOperations">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlTbwAFDEe-bdPyfXj5ZKQ"/>
+      <keywords xmi:id="_PmV9mQFDEe-bdPyfXj5ZKQ" keyword="create"/>
+      <stereotypes xmi:id="_PmV9mgFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlTbwwFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_PmV9mwFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmV9nAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmV9nQFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlTbxAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmV9ngFDEe-bdPyfXj5ZKQ" name="PortOperations">
+          <modelElement href="Port%20Management%20System-operations.uml#_PlS0sAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PmV9nwFDEe-bdPyfXj5ZKQ" name="findPortById">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlUC0AFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmV9oAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmV9oQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmV9ogFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PloL4QFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmV9owFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-operations.uml#_PllIkAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmV9pAFDEe-bdPyfXj5ZKQ" name="id">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlUC0QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmV9pQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmV9pgFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmV9pwFDEe-bdPyfXj5ZKQ" name="findPortByLatitudeAndLongitude">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlUC0gFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmV9qAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmV9qQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmV9qgFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PloL4gFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmV9qwFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-operations.uml#_PllIkAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmV9rAFDEe-bdPyfXj5ZKQ" name="latitude">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlUC0wFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmV9rQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmV9rgFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PmV9rwFDEe-bdPyfXj5ZKQ" name="longitude">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlUC1AFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmV9sAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmV9sQFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmV9sgFDEe-bdPyfXj5ZKQ" name="removePortById">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlUp4AFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmV9swFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmV9tAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmV9tQFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlUp4gFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmV9tgFDEe-bdPyfXj5ZKQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmV9twFDEe-bdPyfXj5ZKQ" name="id">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlUp4QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmV9uAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmV9uQFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmV9ugFDEe-bdPyfXj5ZKQ" name="findAllPorts">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlUp4wFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmV9uwFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmV9vAFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_PmV9vQFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlUp5AFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmV9vgFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-operations.uml#_PllIkAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PmV9vwFDEe-bdPyfXj5ZKQ" name="addPort">
+      <modelElement href="Port%20Management%20System-operations.uml#_Plnk0wFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmV9wAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmV9wQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PmV9wgFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-operations.uml#_PloL4AFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmV9wwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmV9xAFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-operations.uml#_PllIkAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PmYZ0AFDEe-bdPyfXj5ZKQ" name="ContainerOperations" associationsOut="_PmXywAFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-operations.uml#_PlPxYAFDEe-bdPyfXj5ZKQ"/>
+    <visualProperties xmi:id="_PmYZ0QFDEe-bdPyfXj5ZKQ" position="-432.0,53.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PmYZ0gFDEe-bdPyfXj5ZKQ" label="+"/>
+    <attributes xmi:id="_PmYZ0wFDEe-bdPyfXj5ZKQ" defaultValue="new ArrayList&lt;>()" name="containerList">
+      <modelElement href="Port%20Management%20System-operations.uml#_Ploy8QFDEe-bdPyfXj5ZKQ"/>
+      <stereotypes xmi:id="_PmYZ1AFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlpaAgFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_PmYZ1QFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_PmYZ1gFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PmYZ1wFDEe-bdPyfXj5ZKQ" name="Container">
+        <modelElement href="Port%20Management%20System-operations.uml#_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PmYZ2AFDEe-bdPyfXj5ZKQ" name="ContainerOperations">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlQYcAFDEe-bdPyfXj5ZKQ"/>
+      <keywords xmi:id="_PmYZ2QFDEe-bdPyfXj5ZKQ" keyword="create"/>
+      <stereotypes xmi:id="_PmYZ2gFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlQ_gAFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_PmYZ2wFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmYZ3AFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmYZ3QFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlQ_gQFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmYZ3gFDEe-bdPyfXj5ZKQ" name="ContainerOperations">
+          <modelElement href="Port%20Management%20System-operations.uml#_PlPxYAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PmYZ3wFDEe-bdPyfXj5ZKQ" name="findContainerById">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlQ_ggFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmYZ4AFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmYZ4QFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmYZ4gFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_Plnk0gFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmYZ4wFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-operations.uml#_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmYZ5AFDEe-bdPyfXj5ZKQ" name="id">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlQ_gwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmYZ5QFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmYZ5gFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmYZ5wFDEe-bdPyfXj5ZKQ" name="deleteContainerById">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlRmkAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmYZ6AFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmYZ6QFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmYZ6gFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlRmkgFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmYZ6wFDEe-bdPyfXj5ZKQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmYZ7AFDEe-bdPyfXj5ZKQ" name="id">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlRmkQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmYZ7QFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmYZ7gFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmYZ7wFDEe-bdPyfXj5ZKQ" name="findAll">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlRmkwFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmYZ8AFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmYZ8QFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_PmYZ8gFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlSNoAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmYZ8wFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-operations.uml#_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PmYZ9AFDEe-bdPyfXj5ZKQ" name="addContainer">
+      <modelElement href="Port%20Management%20System-operations.uml#_Plnk0AFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmYZ9QFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmYZ9gFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PmYZ9wFDEe-bdPyfXj5ZKQ" name="container">
+        <modelElement href="Port%20Management%20System-operations.uml#_Plnk0QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmYZ-AFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmYZ-QFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-operations.uml#_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PmaPCQFDEe-bdPyfXj5ZKQ" name="ShipOperations" associationsOut="_PmaPAAFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-operations.uml#_PlV4AAFDEe-bdPyfXj5ZKQ"/>
+    <visualProperties xmi:id="_PmaPCgFDEe-bdPyfXj5ZKQ" position="665.0,53.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PmaPCwFDEe-bdPyfXj5ZKQ" label="+"/>
+    <attributes xmi:id="_PmaPDAFDEe-bdPyfXj5ZKQ" defaultValue="new ArrayList&lt;>()" name="shipList">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlqBEgFDEe-bdPyfXj5ZKQ"/>
+      <stereotypes xmi:id="_PmaPDQFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlqoIAFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_PmaPDgFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_PmaPDwFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PmaPEAFDEe-bdPyfXj5ZKQ" name="Ship">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PmaPEQFDEe-bdPyfXj5ZKQ" name="ShipOperations">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlWfEAFDEe-bdPyfXj5ZKQ"/>
+      <keywords xmi:id="_PmaPEgFDEe-bdPyfXj5ZKQ" keyword="create"/>
+      <stereotypes xmi:id="_PmaPEwFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlXGIAFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_PmaPFAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmaPFQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmaPFgFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlXGIQFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmaPFwFDEe-bdPyfXj5ZKQ" name="ShipOperations">
+          <modelElement href="Port%20Management%20System-operations.uml#_PlV4AAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PmaPGAFDEe-bdPyfXj5ZKQ" name="findShipById">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlXGIgFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmaPGQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmaPGgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmaPGwFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_Ploy8AFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmaPHAFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-operations.uml#_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmaPHQFDEe-bdPyfXj5ZKQ" name="id">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlXGIwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmaPHgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmaPHwFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmaPIAFDEe-bdPyfXj5ZKQ" name="removeShipById">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlXtMAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmaPIQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmaPIgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PmaPIwFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlXtMgFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmaPJAFDEe-bdPyfXj5ZKQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PmaPJQFDEe-bdPyfXj5ZKQ" name="id">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlXtMQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmaPJgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmaPJwFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PmaPKAFDEe-bdPyfXj5ZKQ" name="findAll">
+      <modelElement href="Port%20Management%20System-operations.uml#_PlXtMwFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmaPKQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmaPKgFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_PmaPKwFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-operations.uml#_PlYUQAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_PmaPLAFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-operations.uml#_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PmaPLQFDEe-bdPyfXj5ZKQ" name="addShip">
+      <modelElement href="Port%20Management%20System-operations.uml#_PloL4wFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_PmaPLgFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_PmaPLwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PmaPMAFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-operations.uml#_PloL5AFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_PmaPMQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_PmaPMgFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-operations.uml#_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_PcwjwAFDEe-bdPyfXj5ZKQ" name="Port_Management_System_operations">
+    <eAnnotations xmi:id="_Pf5-YAFDEe-bdPyfXj5ZKQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Pf7MgAFDEe-bdPyfXj5ZKQ" source="codegen">
+        <details xmi:id="_Pf7MgQFDEe-bdPyfXj5ZKQ" key="codegenDirectory" value="/Port Management System/src"/>
+        <details xmi:id="_PmNasAFDEe-bdPyfXj5ZKQ" key="AssociatedSourceCode" value="/Port Management System/src/operations/ContainerOperations.java;3246104274/1;/Port Management System/src/operations/PortOperations.java;40976389/1;/Port Management System/src/operations/ShipOperations.java;1837666975/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_PlELMAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyQAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyQQFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyQgFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyQwFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyRAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyRQFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_PlEyRgFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_PlFZUAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PlFZUQFDEe-bdPyfXj5ZKQ" name="container">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Plj6cAFDEe-bdPyfXj5ZKQ" name="Container"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PlGAYAFDEe-bdPyfXj5ZKQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_PlGAYQFDEe-bdPyfXj5ZKQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_PlkhgAFDEe-bdPyfXj5ZKQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_PlkhggFDEe-bdPyfXj5ZKQ" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PlH1kAFDEe-bdPyfXj5ZKQ" name="operations">
+      <packagedElement xmi:type="uml:Class" xmi:id="_PlPxYAFDEe-bdPyfXj5ZKQ" name="ContainerOperations">
+        <ownedAttribute xmi:id="_Ploy8QFDEe-bdPyfXj5ZKQ" name="containerList" visibility="private" isLeaf="true" type="_Plj6cAFDEe-bdPyfXj5ZKQ" isOrdered="true" isReadOnly="true" association="_PlsdUAFDEe-bdPyfXj5ZKQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlpaAAFDEe-bdPyfXj5ZKQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_PlpaAQFDEe-bdPyfXj5ZKQ" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoIQFDEe-bdPyfXj5ZKQ" name="addContainer" specification="_Plnk0AFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoIgFDEe-bdPyfXj5ZKQ" name="container" type="_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+          <language>java</language>
+          <body>containerList.add(container);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoIwFDEe-bdPyfXj5ZKQ" name="findContainerById" specification="_PlQ_ggFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoJAFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlqoJQFDEe-bdPyfXj5ZKQ" type="_Plj6cAFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>for (Container container : containerList) {&#xD;
+			if (id == container.getID())&#xD;
+				return container;&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoJgFDEe-bdPyfXj5ZKQ" name="deleteContainerById" specification="_PlRmkAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoJwFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlqoKAFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return containerList.removeIf(container -> id == container.getID());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoKQFDEe-bdPyfXj5ZKQ" name="findAll" specification="_PlRmkwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoKgFDEe-bdPyfXj5ZKQ" type="_Plj6cAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlqoKwFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.containerList;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_PlQYcAFDEe-bdPyfXj5ZKQ" name="ContainerOperations">
+          <eAnnotations xmi:id="_PlQYcQFDEe-bdPyfXj5ZKQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_PlQYcgFDEe-bdPyfXj5ZKQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_PlQ_gQFDEe-bdPyfXj5ZKQ" type="_PlPxYAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlQ_ggFDEe-bdPyfXj5ZKQ" name="findContainerById" method="_PlqoIwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlQ_gwFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Plnk0gFDEe-bdPyfXj5ZKQ" type="_Plj6cAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlRmkAFDEe-bdPyfXj5ZKQ" name="deleteContainerById" method="_PlqoJgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlRmkQFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlRmkgFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlRmkwFDEe-bdPyfXj5ZKQ" name="findAll" method="_PlqoKQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlSNoAFDEe-bdPyfXj5ZKQ" type="_Plj6cAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlSNoQFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Plnk0AFDEe-bdPyfXj5ZKQ" name="addContainer" method="_PlqoIQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_Plnk0QFDEe-bdPyfXj5ZKQ" name="container" type="_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PlS0sAFDEe-bdPyfXj5ZKQ" name="PortOperations">
+        <ownedAttribute xmi:id="_PlpaAwFDEe-bdPyfXj5ZKQ" name="portList" visibility="private" isLeaf="true" type="_PllIkAFDEe-bdPyfXj5ZKQ" isOrdered="true" isReadOnly="true" association="_PltEYAFDEe-bdPyfXj5ZKQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlpaBAFDEe-bdPyfXj5ZKQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_PlqBEAFDEe-bdPyfXj5ZKQ" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoLAFDEe-bdPyfXj5ZKQ" name="addPort" specification="_Plnk0wFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoLQFDEe-bdPyfXj5ZKQ" name="port" type="_PllIkAFDEe-bdPyfXj5ZKQ"/>
+          <language>java</language>
+          <body>portList.add(port);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoLgFDEe-bdPyfXj5ZKQ" name="findPortById" specification="_PlUC0AFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoLwFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlqoMAFDEe-bdPyfXj5ZKQ" type="_PllIkAFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>for (Port port : portList) {&#xD;
+			if (port.getPortID() == id)&#xD;
+				return port;&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlqoMQFDEe-bdPyfXj5ZKQ" name="findPortByLatitudeAndLongitude" specification="_PlUC0gFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlqoMgFDEe-bdPyfXj5ZKQ" name="latitude">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlqoMwFDEe-bdPyfXj5ZKQ" name="longitude">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlqoNAFDEe-bdPyfXj5ZKQ" type="_PllIkAFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>for (Port port : portList) {&#xD;
+			if (port.getLatitude() == latitude &amp;&amp; port.getLongitude() == longitude)&#xD;
+				return port;&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlrPMAFDEe-bdPyfXj5ZKQ" name="removePortById" specification="_PlUp4AFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlrPMQFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlrPMgFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return portList.removeIf(port -> port.getPortID() == id);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlrPMwFDEe-bdPyfXj5ZKQ" name="findAllPorts" specification="_PlUp4wFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlrPNAFDEe-bdPyfXj5ZKQ" type="_PllIkAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlrPNQFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.portList;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_PlTbwAFDEe-bdPyfXj5ZKQ" name="PortOperations">
+          <eAnnotations xmi:id="_PlTbwQFDEe-bdPyfXj5ZKQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_PlTbwgFDEe-bdPyfXj5ZKQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_PlTbxAFDEe-bdPyfXj5ZKQ" type="_PlS0sAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlUC0AFDEe-bdPyfXj5ZKQ" name="findPortById" method="_PlqoLgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlUC0QFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PloL4QFDEe-bdPyfXj5ZKQ" type="_PllIkAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlUC0gFDEe-bdPyfXj5ZKQ" name="findPortByLatitudeAndLongitude" method="_PlqoMQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlUC0wFDEe-bdPyfXj5ZKQ" name="latitude">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlUC1AFDEe-bdPyfXj5ZKQ" name="longitude">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PloL4gFDEe-bdPyfXj5ZKQ" type="_PllIkAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlUp4AFDEe-bdPyfXj5ZKQ" name="removePortById" method="_PlrPMAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlUp4QFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlUp4gFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlUp4wFDEe-bdPyfXj5ZKQ" name="findAllPorts" method="_PlrPMwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlUp5AFDEe-bdPyfXj5ZKQ" type="_PllIkAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlUp5QFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Plnk0wFDEe-bdPyfXj5ZKQ" name="addPort" method="_PlqoLAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PloL4AFDEe-bdPyfXj5ZKQ" name="port" type="_PllIkAFDEe-bdPyfXj5ZKQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PlV4AAFDEe-bdPyfXj5ZKQ" name="ShipOperations">
+        <ownedAttribute xmi:id="_PlqBEgFDEe-bdPyfXj5ZKQ" name="shipList" visibility="private" isLeaf="true" type="_PlmWsAFDEe-bdPyfXj5ZKQ" isOrdered="true" isReadOnly="true" association="_PltEYwFDEe-bdPyfXj5ZKQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlqBEwFDEe-bdPyfXj5ZKQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_PlqBFAFDEe-bdPyfXj5ZKQ" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlrPNgFDEe-bdPyfXj5ZKQ" name="addShip" specification="_PloL4wFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlrPNwFDEe-bdPyfXj5ZKQ" name="ship" type="_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+          <language>java</language>
+          <body>shipList.add(ship);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlrPOAFDEe-bdPyfXj5ZKQ" name="findShipById" specification="_PlXGIgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlrPOQFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlrPOgFDEe-bdPyfXj5ZKQ" type="_PlmWsAFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>if (!shipList.isEmpty()) {&#xD;
+			for (Ship ship : shipList) {&#xD;
+				if (ship.getID() == id)&#xD;
+					return ship;&#xD;
+			}&#xD;
+			return null;&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlrPOwFDEe-bdPyfXj5ZKQ" name="removeShipById" specification="_PlXtMAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlrPPAFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlrPPQFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return shipList.removeIf(ship -> ship.getID() == id);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PlrPPgFDEe-bdPyfXj5ZKQ" name="findAll" specification="_PlXtMwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlrPPwFDEe-bdPyfXj5ZKQ" type="_PlmWsAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlrPQAFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return shipList;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_PlWfEAFDEe-bdPyfXj5ZKQ" name="ShipOperations">
+          <eAnnotations xmi:id="_PlWfEQFDEe-bdPyfXj5ZKQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_PlWfEgFDEe-bdPyfXj5ZKQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_PlXGIQFDEe-bdPyfXj5ZKQ" type="_PlV4AAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlXGIgFDEe-bdPyfXj5ZKQ" name="findShipById" method="_PlrPOAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlXGIwFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ploy8AFDEe-bdPyfXj5ZKQ" type="_PlmWsAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlXtMAFDEe-bdPyfXj5ZKQ" name="removeShipById" method="_PlrPOwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlXtMQFDEe-bdPyfXj5ZKQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PlXtMgFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlXtMwFDEe-bdPyfXj5ZKQ" name="findAll" method="_PlrPPgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PlYUQAFDEe-bdPyfXj5ZKQ" type="_PlmWsAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PlYUQQFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PloL4wFDEe-bdPyfXj5ZKQ" name="addShip" method="_PlrPNgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_PloL5AFDEe-bdPyfXj5ZKQ" name="ship" type="_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PlsdUAFDEe-bdPyfXj5ZKQ" name="" memberEnd="_PlsdUQFDEe-bdPyfXj5ZKQ _Ploy8QFDEe-bdPyfXj5ZKQ">
+        <ownedEnd xmi:id="_PlsdUQFDEe-bdPyfXj5ZKQ" name="" type="_PlPxYAFDEe-bdPyfXj5ZKQ" association="_PlsdUAFDEe-bdPyfXj5ZKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PltEYAFDEe-bdPyfXj5ZKQ" name="" memberEnd="_PltEYQFDEe-bdPyfXj5ZKQ _PlpaAwFDEe-bdPyfXj5ZKQ">
+        <ownedEnd xmi:id="_PltEYQFDEe-bdPyfXj5ZKQ" name="" type="_PlS0sAFDEe-bdPyfXj5ZKQ" association="_PltEYAFDEe-bdPyfXj5ZKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PltEYwFDEe-bdPyfXj5ZKQ" name="" memberEnd="_PltEZAFDEe-bdPyfXj5ZKQ _PlqBEgFDEe-bdPyfXj5ZKQ">
+        <ownedEnd xmi:id="_PltEZAFDEe-bdPyfXj5ZKQ" name="" type="_PlV4AAFDEe-bdPyfXj5ZKQ" association="_PltEYwFDEe-bdPyfXj5ZKQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PlJDsAFDEe-bdPyfXj5ZKQ" name="interfaces">
+      <packagedElement xmi:type="uml:Class" xmi:id="_PllIkAFDEe-bdPyfXj5ZKQ" name="Port"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PlmWsAFDEe-bdPyfXj5ZKQ" name="Ship"/>
+    </packagedElement>
+    <profileApplication xmi:id="_Pf7MggFDEe-bdPyfXj5ZKQ">
+      <eAnnotations xmi:id="_Pf7MgwFDEe-bdPyfXj5ZKQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Pf7MhAFDEe-bdPyfXj5ZKQ" base_Package="_PcwjwAFDEe-bdPyfXj5ZKQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PlQ_gAFDEe-bdPyfXj5ZKQ" base_Element="_PlQYcAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PlTbwwFDEe-bdPyfXj5ZKQ" base_Element="_PlTbwAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PlXGIAFDEe-bdPyfXj5ZKQ" base_Element="_PlWfEAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_Plj6cQFDEe-bdPyfXj5ZKQ" base_Element="_Plj6cAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PlkhgQFDEe-bdPyfXj5ZKQ" base_Element="_PlkhgAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PlkhgwFDEe-bdPyfXj5ZKQ" base_Element="_PlkhggFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PllvoAFDEe-bdPyfXj5ZKQ" base_Element="_PllIkAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PlmWsQFDEe-bdPyfXj5ZKQ" base_Element="_PlmWsAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PlpaAgFDEe-bdPyfXj5ZKQ" base_Element="_Ploy8QFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PlqBEQFDEe-bdPyfXj5ZKQ" base_Element="_PlpaAwFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PlqoIAFDEe-bdPyfXj5ZKQ" base_Element="_PlqBEgFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PlsdUgFDEe-bdPyfXj5ZKQ" base_Element="_PlsdUAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PltEYgFDEe-bdPyfXj5ZKQ" base_Element="_PltEYAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_PltEZQFDEe-bdPyfXj5ZKQ" base_Element="_PltEYwFDEe-bdPyfXj5ZKQ"/>
+</xmi:XMI>
