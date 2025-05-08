@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_n17HAAFDEe-bdPyfXj5ZKQ" name="Port_Management_System_util">
+    <eAnnotations xmi:id="_n54Z8AFDEe-bdPyfXj5ZKQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_n54Z8QFDEe-bdPyfXj5ZKQ" source="codegen">
+        <details xmi:id="_n54Z8gFDEe-bdPyfXj5ZKQ" key="codegenDirectory" value="/Port Management System/src"/>
+        <details xmi:id="_oBCx4AFDEe-bdPyfXj5ZKQ" key="AssociatedSourceCode" value="/Port Management System/src/util/Utils.java;3948696573/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_n_ZMEAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzIAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzIQFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzIgFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzIwFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzJAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzJQFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_n_ZzJgFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_n_aaMAFDEe-bdPyfXj5ZKQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_bBQAFDEe-bdPyfXj5ZKQ" name="operations">
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_y0sAFDEe-bdPyfXj5ZKQ" name="ContainerOperations"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_0C0AFDEe-bdPyfXj5ZKQ" name="PortOperations"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_0C0gFDEe-bdPyfXj5ZKQ" name="ShipOperations"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_cPYAFDEe-bdPyfXj5ZKQ" name="container">
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_47UAFDEe-bdPyfXj5ZKQ" name="Container"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_c2cAFDEe-bdPyfXj5ZKQ" name="interfaces">
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_0p4QFDEe-bdPyfXj5ZKQ" name="Port"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_1Q8QFDEe-bdPyfXj5ZKQ" name="Ship"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_c2cQFDEe-bdPyfXj5ZKQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_n_c2cgFDEe-bdPyfXj5ZKQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_n_5iYQFDEe-bdPyfXj5ZKQ" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_n_7-oAFDEe-bdPyfXj5ZKQ" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_n_7-oQFDEe-bdPyfXj5ZKQ" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_gg0AFDEe-bdPyfXj5ZKQ" name="util">
+      <packagedElement xmi:type="uml:Class" xmi:id="_n_kLMAFDEe-bdPyfXj5ZKQ" name="Utils">
+        <ownedAttribute xmi:id="_n__pAAFDEe-bdPyfXj5ZKQ" name="shipOperations" visibility="package" isStatic="true" type="_n_0C0gFDEe-bdPyfXj5ZKQ" association="_oAD6cAFDEe-bdPyfXj5ZKQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_n__pAQFDEe-bdPyfXj5ZKQ" value="new ShipOperations()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_n__pAwFDEe-bdPyfXj5ZKQ" name="containerOperations" visibility="package" isStatic="true" type="_n_y0sAFDEe-bdPyfXj5ZKQ" association="_oAEhgAFDEe-bdPyfXj5ZKQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oAAQEAFDEe-bdPyfXj5ZKQ" value="new ContainerOperations()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oAAQEgFDEe-bdPyfXj5ZKQ" name="portOperations" visibility="package" type="_n_0C0AFDEe-bdPyfXj5ZKQ" association="_oAEhgwFDEe-bdPyfXj5ZKQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oAAQEwFDEe-bdPyfXj5ZKQ" value="new PortOperations()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oAA3IAFDEe-bdPyfXj5ZKQ" name="mainMenu" specification="_n_mAYAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oAA3IQFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Scanner scan = new Scanner(System.in);&#xD;
+		System.out.println(&quot;\n########################################################################################&quot;);&#xD;
+		System.out.println(&quot;*********************** Welcome to Ships And Port Management System ********************&quot;);&#xD;
+		System.out.println(&quot;########################################################################################\n&quot;);&#xD;
+		System.out.println(&quot;&quot;&quot;&#xD;
+				Choose an option&#xD;
+				 [1] Create a container&#xD;
+				 [2] Create a ship&#xD;
+				 [3] Create a port&#xD;
+				 [4] Load a container to a ship&#xD;
+				 [5] Unload a container from a ship&#xD;
+				 [6] Sail ship to another port&#xD;
+				 [7] Refuel ship&#xD;
+				 [8] Exit&#xD;
+				&quot;&quot;&quot;);&#xD;
+		System.out.println(&quot;Enter Option: &quot;);&#xD;
+		return scan.nextInt();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeMAFDEe-bdPyfXj5ZKQ" name="createAContainer" specification="_n_6JcQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oABeMQFDEe-bdPyfXj5ZKQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeMgFDEe-bdPyfXj5ZKQ" name="weight">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeMwFDEe-bdPyfXj5ZKQ" name="heavyType" type="_n_5iYQFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeNAFDEe-bdPyfXj5ZKQ" type="_n_47UAFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>// Basic container category&#xD;
+		if (weight &lt; 5000) {&#xD;
+			return new BasicContainer(ID, weight, false, true);&#xD;
+		}&#xD;
+&#xD;
+		// Heavy container category&#xD;
+		else {&#xD;
+			if (heavyType.isPresent()) {&#xD;
+				// Liquid container.Container category&#xD;
+				if (heavyType.get().equalsIgnoreCase(&quot;L&quot;)) {&#xD;
+					return new LiquidContainer(ID, weight, false, true);&#xD;
+				}&#xD;
+				// Refrigerated container category&#xD;
+				else if (heavyType.get().equalsIgnoreCase(&quot;R&quot;)) {&#xD;
+					return new RefrigeratedContainer(ID, weight, false, true);&#xD;
+				}&#xD;
+&#xD;
+				// Refrigerated container category&#xD;
+				else if (heavyType.get().equalsIgnoreCase(&quot;N&quot;)) {&#xD;
+					return new HeavyContainer(ID, weight, false, true);&#xD;
+				}&#xD;
+&#xD;
+				// If not &quot;L&quot; or &quot;R&quot; or &quot;N&quot; its invalid input&#xD;
+				else {&#xD;
+					System.out.println(&quot;Invalid container type&quot;);&#xD;
+					return null;&#xD;
+				}&#xD;
+			}&#xD;
+			System.out.println(&quot;Please specify container type&quot;);&#xD;
+			return null;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeNQFDEe-bdPyfXj5ZKQ" name="createAShip" specification="_n_7XkAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oABeNgFDEe-bdPyfXj5ZKQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeNwFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeOAFDEe-bdPyfXj5ZKQ" name="totalWeightCapacity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeOQFDEe-bdPyfXj5ZKQ" name="maxNumberOfAllContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeOgFDEe-bdPyfXj5ZKQ" name="maxNumberOfHeavyContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeOwFDEe-bdPyfXj5ZKQ" name="maxNumberOfRefrigeratedContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABePAFDEe-bdPyfXj5ZKQ" name="maxNumberOfLiquidContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABePQFDEe-bdPyfXj5ZKQ" name="fuelConsumptionPerKM">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABePgFDEe-bdPyfXj5ZKQ" name="tankCapacity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABePwFDEe-bdPyfXj5ZKQ" name="fuelInTank">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeQAFDEe-bdPyfXj5ZKQ" type="_n_1Q8QFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>// Check if there are no null or zero inputs&#xD;
+		if (totalWeightCapacity != 0 &amp;&amp; tankCapacity != 0 &amp;&amp; fuelConsumptionPerKM != 0) {&#xD;
+			return new Ship(ID, port, totalWeightCapacity, maxNumberOfAllContainers, maxNumberOfHeavyContainers,&#xD;
+					maxNumberOfRefrigeratedContainers, maxNumberOfLiquidContainers, fuelConsumptionPerKM, tankCapacity,&#xD;
+					fuelInTank);&#xD;
+		}&#xD;
+&#xD;
+		System.out.println(&quot;Invalid inputs, could not create ship&quot;);&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeQQFDEe-bdPyfXj5ZKQ" name="createAPort" specification="_n_8lsAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oABeQgFDEe-bdPyfXj5ZKQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oABeQwFDEe-bdPyfXj5ZKQ" name="latitude" type="_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeRAFDEe-bdPyfXj5ZKQ" name="longitude" type="_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeRQFDEe-bdPyfXj5ZKQ" type="_n_0p4QFDEe-bdPyfXj5ZKQ" direction="return"/>
+          <language>java</language>
+          <body>return new Port(ID, latitude, longitude);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeRgFDEe-bdPyfXj5ZKQ" name="checkIfShipExist" specification="_n_8ltQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oABeRwFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeSAFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeSQFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (port.getOnPortShipList() != null) {&#xD;
+			for (Ship s : port.getOnPortShipList()) {&#xD;
+				// find matching ship&#xD;
+				if (s.getID() == ship.getID()) {&#xD;
+					return true;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeSgFDEe-bdPyfXj5ZKQ" name="checkIfContainerExist" specification="_n_9MwQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oABeSwFDEe-bdPyfXj5ZKQ" name="container" type="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeTAFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeTQFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (port.getOnPortContainerList() != null) {&#xD;
+			for (Container c : port.getOnPortContainerList()) {&#xD;
+				// find containers that match&#xD;
+				if (c.getID() == container.getID()) {&#xD;
+					return true;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeTgFDEe-bdPyfXj5ZKQ" name="loadingShipRestrictions" specification="_n_9MxQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oABeTwFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oABeUAFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oABeUQFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int weightOfHeavyContainers = 0, weightOfBasicContainers = 0, numOfBasicContainers = 0,&#xD;
+				numOfHeavyContainers = 0;&#xD;
+&#xD;
+		List&lt;Integer> returnValue = new ArrayList&lt;>();&#xD;
+&#xD;
+		if (ship.getCurrentContainers() != null) {&#xD;
+			for (Container c : ship.getCurrentContainers()) {&#xD;
+				if (c.getWeight() > 5000) {&#xD;
+					weightOfHeavyContainers += c.getWeight();&#xD;
+					numOfHeavyContainers++;&#xD;
+				} else if (c.getWeight() &lt; 5000) {&#xD;
+					weightOfBasicContainers += c.getWeight();&#xD;
+					numOfBasicContainers++;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// add restriction inside return value list&#xD;
+		returnValue.add(weightOfHeavyContainers);&#xD;
+		returnValue.add(weightOfBasicContainers);&#xD;
+		returnValue.add(numOfBasicContainers);&#xD;
+		returnValue.add(numOfHeavyContainers);&#xD;
+&#xD;
+		// return calculated values&#xD;
+		return returnValue;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oABeUgFDEe-bdPyfXj5ZKQ" name="loadAContainer" specification="_n_9z0gFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oACsUAFDEe-bdPyfXj5ZKQ" name="container" type="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oACsUQFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oACsUgFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <language>java</language>
+          <body>// Can only Load a container if a container and ship exits on the same port&#xD;
+		int maxNumberOfHeavyContainers = ship.getMaxNumberOfHeavyContainers();&#xD;
+		int maxNumberOfAllContainers = ship.getMaxNumberOfAllContainers();&#xD;
+		int maxNumberOfBasicContainers = (maxNumberOfAllContainers - maxNumberOfHeavyContainers);&#xD;
+		// for-each loop to iterate over each container on the ship&#xD;
+		for (Container c : ship.getOnShipContainerList()) {&#xD;
+			if (c.getID() == container.getID()) {&#xD;
+				System.out.println(&quot;Container already exist in ship&quot;);&#xD;
+				return;&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// load heavy container&#xD;
+		if (container.getWeight() > 5000) {&#xD;
+			if (maxNumberOfHeavyContainers > 0) {&#xD;
+				if (ship.load(container)) {&#xD;
+					container.setOnPort(false);&#xD;
+					container.setOnShip(true);&#xD;
+					System.out.println(&quot;Container was loaded successfully&quot;);&#xD;
+				} else {&#xD;
+					System.out.println(&quot;Failed to load container &quot;);&#xD;
+				}&#xD;
+&#xD;
+			} else if (maxNumberOfBasicContainers > 0) {&#xD;
+				System.out.println(&quot;Cannot load container, no more space left for heavy container in ship&quot;);&#xD;
+				System.out.println(&quot;[NB]-> Try loading basic container&quot;);&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Cannot load container, no more space left in ship&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// load basic container&#xD;
+		else if (container.getWeight() &lt; 5000) {&#xD;
+			if (maxNumberOfBasicContainers > 0) {&#xD;
+				if (ship.load(container)) {&#xD;
+					container.setOnPort(false);&#xD;
+					container.setOnShip(true);&#xD;
+					System.out.println(&quot;Container was loaded successfully&quot;);&#xD;
+				} else {&#xD;
+					System.out.println(&quot;Failed to load container&quot;);&#xD;
+				}&#xD;
+			} else if (maxNumberOfHeavyContainers > 0) {&#xD;
+				System.out.println(&quot;Cannot load container, no more space left for basic container in ship&quot;);&#xD;
+				System.out.println(&quot;[NB]-> Try loading heavy container&quot;);&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Cannot load container, no more space left in ship&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oACsUwFDEe-bdPyfXj5ZKQ" name="unloadAContainer" specification="_n_-a4AFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oACsVAFDEe-bdPyfXj5ZKQ" name="container" type="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oACsVQFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oACsVgFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <language>java</language>
+          <body>// Check if container exist in ship&#xD;
+		if (ship.getOnShipContainerList() != null) {&#xD;
+			for (Container c : ship.getOnShipContainerList()) {&#xD;
+				if (c.getID() != container.getID()) {&#xD;
+					System.out.println(&quot;Container already does not exist in ship&quot;);&#xD;
+					return;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// unload container&#xD;
+		if (ship.unload(container)) {&#xD;
+			container.setOnPort(true);&#xD;
+			container.setOnShip(false);&#xD;
+			System.out.println(&quot;Container was unloaded successfully&quot;);&#xD;
+		} else {&#xD;
+			System.out.println(&quot;Failed to unload container&quot;);&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oACsVwFDEe-bdPyfXj5ZKQ" name="calculateDistance" specification="_n_nOgAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oACsWAFDEe-bdPyfXj5ZKQ" name="lat1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oACsWQFDEe-bdPyfXj5ZKQ" name="lon1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oACsWgFDEe-bdPyfXj5ZKQ" name="lat2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oACsWwFDEe-bdPyfXj5ZKQ" name="lon2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oACsXAFDEe-bdPyfXj5ZKQ" name="unit">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oACsXQFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if ((lat1 == lat2) &amp;&amp; (lon1 == lon2)) {&#xD;
+			return 0;&#xD;
+		} else {&#xD;
+			double theta = lon1 - lon2;&#xD;
+			double dist = Math.sin(Math.toRadians(lat1)) * Math.sin(Math.toRadians(lat2))+ Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) * Math.cos(Math.toRadians(theta));&#xD;
+			dist = Math.acos(dist);&#xD;
+			dist = Math.toDegrees(dist);&#xD;
+			dist = dist * 60 * 1.1515;&#xD;
+			if (unit.equals(&quot;K&quot;)) {&#xD;
+				dist = dist * 1.609344;&#xD;
+			} else if (unit.equals(&quot;N&quot;)) {&#xD;
+				dist = dist * 0.8684;&#xD;
+			}&#xD;
+			return (dist);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oACsXgFDEe-bdPyfXj5ZKQ" name="sailShipToPort" specification="_n_-a5AFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oACsXwFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oACsYAFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <language>java</language>
+          <body>double distance = calculateDistance(ship.getCurrentPort().getLatitude(), ship.getCurrentPort().getLongitude(),&#xD;
+				port.getLatitude(), port.getLongitude(), &quot;K&quot;);&#xD;
+&#xD;
+		if (distance == 0) {&#xD;
+			System.out.println(&quot;-> Ship Can not navigate to the same destination&quot;);&#xD;
+		} else {&#xD;
+			int totalContainerFuelConsumption = 0;&#xD;
+			double tankCapacity = ship.getTankCapacity();&#xD;
+			double fuelInTank = ship.getFuelInTank();&#xD;
+			double fuelConsuptionPerKM = ship.getFuelConsumptionPerKM();&#xD;
+&#xD;
+			if (tankCapacity &lt; (fuelConsuptionPerKM * distance)) {&#xD;
+				System.out.println(&quot;-> Cannot sail ship, tank capacity too small for sail&quot;);&#xD;
+				System.out.println(&quot;Distance to sail port destination is: &quot; + distance);&#xD;
+				System.out.println(&quot;Amount of fuel needed to make this sail: &quot; + (fuelConsuptionPerKM * distance));&#xD;
+			} else if (fuelInTank &lt; (fuelConsuptionPerKM * distance)) {&#xD;
+				System.out.println(&quot;Cannot sail ship, current fuel too small for sail&quot;);&#xD;
+				System.out.println(&quot;Distance to sail port destination is: &quot; + distance);&#xD;
+				System.out.println(&quot;Amount of fuel needed to make this sail: &quot; + (fuelConsuptionPerKM * distance));&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Distance to sail port destination is: &quot; + distance);&#xD;
+				System.out.println(&quot;Ship is sailing to destination&quot;);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oACsYQFDEe-bdPyfXj5ZKQ" name="refuel" specification="_n__B8AFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_oACsYgFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_oACsYwFDEe-bdPyfXj5ZKQ" name="fuelAmount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (ship.getTankCapacity() &lt; fuelAmount) {&#xD;
+			System.out.println(&quot;Cannot enter fuel amount greater than fuel tank capacity&quot;);&#xD;
+		} else {&#xD;
+			// Check if ship can refuel&#xD;
+			if (fuelAmount > 0) {&#xD;
+				// Calculate the current fuel amount&#xD;
+				double currentFuelAmount = (ship.getTankCapacity() - ship.getFuelInTank());&#xD;
+				ship.setFuelInTank(ship.getFuelInTank() + fuelAmount);&#xD;
+				System.out.println(&quot;Ship ID: &quot; + ship.getID() + &quot;\nShip refueled to: &quot; + ship.getFuelInTank());&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Cannot enter fuel amount less than or equal to zero&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_n_lZUAFDEe-bdPyfXj5ZKQ" name="Utils">
+          <eAnnotations xmi:id="_n_lZUQFDEe-bdPyfXj5ZKQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_n_lZUgFDEe-bdPyfXj5ZKQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_n_lZVAFDEe-bdPyfXj5ZKQ" type="_n_kLMAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_mAYAFDEe-bdPyfXj5ZKQ" name="mainMenu" isStatic="true" method="_oAA3IAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_mAYQFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_nOgAFDEe-bdPyfXj5ZKQ" name="calculateDistance" visibility="private" isStatic="true" method="_oACsVwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_nOgQFDEe-bdPyfXj5ZKQ" name="lat1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_nOggFDEe-bdPyfXj5ZKQ" name="lon1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_nOgwFDEe-bdPyfXj5ZKQ" name="lat2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_nOhAFDEe-bdPyfXj5ZKQ" name="lon2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_nOhQFDEe-bdPyfXj5ZKQ" name="unit">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_nOhgFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_6JcQFDEe-bdPyfXj5ZKQ" name="createAContainer" isStatic="true" method="_oABeMAFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_6JcgFDEe-bdPyfXj5ZKQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_6JcwFDEe-bdPyfXj5ZKQ" name="weight">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_6JdAFDEe-bdPyfXj5ZKQ" name="heavyType" type="_n_5iYQFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_6JdQFDEe-bdPyfXj5ZKQ" type="_n_47UAFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_7XkAFDEe-bdPyfXj5ZKQ" name="createAShip" isStatic="true" method="_oABeNQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_7XkQFDEe-bdPyfXj5ZKQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XkgFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_7XkwFDEe-bdPyfXj5ZKQ" name="totalWeightCapacity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XlAFDEe-bdPyfXj5ZKQ" name="maxNumberOfAllContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XlQFDEe-bdPyfXj5ZKQ" name="maxNumberOfHeavyContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XlgFDEe-bdPyfXj5ZKQ" name="maxNumberOfRefrigeratedContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XlwFDEe-bdPyfXj5ZKQ" name="maxNumberOfLiquidContainers">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XmAFDEe-bdPyfXj5ZKQ" name="fuelConsumptionPerKM">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XmQFDEe-bdPyfXj5ZKQ" name="tankCapacity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XmgFDEe-bdPyfXj5ZKQ" name="fuelInTank">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7XmwFDEe-bdPyfXj5ZKQ" type="_n_1Q8QFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_8lsAFDEe-bdPyfXj5ZKQ" name="createAPort" isStatic="true" method="_oABeQQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_8lsQFDEe-bdPyfXj5ZKQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_8lsgFDEe-bdPyfXj5ZKQ" name="latitude" type="_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_8lswFDEe-bdPyfXj5ZKQ" name="longitude" type="_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_8ltAFDEe-bdPyfXj5ZKQ" type="_n_0p4QFDEe-bdPyfXj5ZKQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_8ltQFDEe-bdPyfXj5ZKQ" name="checkIfShipExist" isStatic="true" method="_oABeRgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_8ltgFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_8ltwFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_9MwAFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_9MwQFDEe-bdPyfXj5ZKQ" name="checkIfContainerExist" isStatic="true" method="_oABeSgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_9MwgFDEe-bdPyfXj5ZKQ" name="container" type="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_9MwwFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_9MxAFDEe-bdPyfXj5ZKQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_9MxQFDEe-bdPyfXj5ZKQ" name="loadingShipRestrictions" isStatic="true" method="_oABeTgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_9MxgFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_9z0AFDEe-bdPyfXj5ZKQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n_9z0QFDEe-bdPyfXj5ZKQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_9z0gFDEe-bdPyfXj5ZKQ" name="loadAContainer" isStatic="true" method="_oABeUgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_9z0wFDEe-bdPyfXj5ZKQ" name="container" type="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_9z1AFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_9z1QFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_-a4AFDEe-bdPyfXj5ZKQ" name="unloadAContainer" isStatic="true" method="_oACsUwFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_-a4QFDEe-bdPyfXj5ZKQ" name="container" type="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_-a4gFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_-a4wFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_-a5AFDEe-bdPyfXj5ZKQ" name="sailShipToPort" isStatic="true" method="_oACsXgFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n_-a5QFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n_-a5gFDEe-bdPyfXj5ZKQ" name="port" type="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n__B8AFDEe-bdPyfXj5ZKQ" name="refuel" isStatic="true" method="_oACsYQFDEe-bdPyfXj5ZKQ">
+          <ownedParameter xmi:id="_n__B8QFDEe-bdPyfXj5ZKQ" name="ship" type="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+          <ownedParameter xmi:id="_n__B8gFDEe-bdPyfXj5ZKQ" name="fuelAmount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oAD6cAFDEe-bdPyfXj5ZKQ" name="" memberEnd="_oAD6cQFDEe-bdPyfXj5ZKQ _n__pAAFDEe-bdPyfXj5ZKQ">
+        <ownedEnd xmi:id="_oAD6cQFDEe-bdPyfXj5ZKQ" name="" type="_n_kLMAFDEe-bdPyfXj5ZKQ" association="_oAD6cAFDEe-bdPyfXj5ZKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oAEhgAFDEe-bdPyfXj5ZKQ" name="" memberEnd="_oAEhgQFDEe-bdPyfXj5ZKQ _n__pAwFDEe-bdPyfXj5ZKQ">
+        <ownedEnd xmi:id="_oAEhgQFDEe-bdPyfXj5ZKQ" name="" type="_n_kLMAFDEe-bdPyfXj5ZKQ" association="_oAEhgAFDEe-bdPyfXj5ZKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oAEhgwFDEe-bdPyfXj5ZKQ" name="" memberEnd="_oAEhhAFDEe-bdPyfXj5ZKQ _oAAQEgFDEe-bdPyfXj5ZKQ">
+        <ownedEnd xmi:id="_oAEhhAFDEe-bdPyfXj5ZKQ" name="" type="_n_kLMAFDEe-bdPyfXj5ZKQ" association="_oAEhgwFDEe-bdPyfXj5ZKQ"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_n55BAAFDEe-bdPyfXj5ZKQ">
+      <eAnnotations xmi:id="_n55BAQFDEe-bdPyfXj5ZKQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_n55BAgFDEe-bdPyfXj5ZKQ" base_Package="_n17HAAFDEe-bdPyfXj5ZKQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_n_lZUwFDEe-bdPyfXj5ZKQ" base_Element="_n_lZUAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_zbwAFDEe-bdPyfXj5ZKQ" base_Element="_n_y0sAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_0C0QFDEe-bdPyfXj5ZKQ" base_Element="_n_0C0AFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_0p4AFDEe-bdPyfXj5ZKQ" base_Element="_n_0C0gFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_1Q8AFDEe-bdPyfXj5ZKQ" base_Element="_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_1Q8gFDEe-bdPyfXj5ZKQ" base_Element="_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_5iYAFDEe-bdPyfXj5ZKQ" base_Element="_n_47UAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_6JcAFDEe-bdPyfXj5ZKQ" base_Element="_n_5iYQFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Generics xmi:id="_n_6wgAFDEe-bdPyfXj5ZKQ" genericsValue="String" base_Element="_n_6JdAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_7-ogFDEe-bdPyfXj5ZKQ" base_Element="_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_n__pAgFDEe-bdPyfXj5ZKQ" base_Element="_n__pAAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oAAQEQFDEe-bdPyfXj5ZKQ" base_Element="_n__pAwFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oAAQFAFDEe-bdPyfXj5ZKQ" base_Element="_oAAQEgFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_oAD6cgFDEe-bdPyfXj5ZKQ" base_Element="_oAD6cAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_oAEhggFDEe-bdPyfXj5ZKQ" base_Element="_oAEhgAFDEe-bdPyfXj5ZKQ"/>
+  <UMLLabProfile:Reference xmi:id="_oAFIkAFDEe-bdPyfXj5ZKQ" base_Element="_oAEhgwFDEe-bdPyfXj5ZKQ"/>
+</xmi:XMI>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_n3LEMAFDEe-bdPyfXj5ZKQ">
+  <modelElement href="Port%20Management%20System-util.uml#_n_gg0AFDEe-bdPyfXj5ZKQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oBNJ8AFDEe-bdPyfXj5ZKQ" source="_oBO_KQFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-util.uml#_oAD6cAFDEe-bdPyfXj5ZKQ"/>
+    <stereotypes xmi:id="_oBNJ8QFDEe-bdPyfXj5ZKQ" name="Reference">
+      <modelElement href="Port%20Management%20System-util.uml#_oAD6cgFDEe-bdPyfXj5ZKQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oBNJ8gFDEe-bdPyfXj5ZKQ" text=""/>
+    <sourceRole xmi:id="_oBNJ8wFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="">
+      <modelElement href="Port%20Management%20System-util.uml#_oAD6cQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBNJ9AFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBNJ9QFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oBNJ9gFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="shipOperations" navigable="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n__pAAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBNJ9wFDEe-bdPyfXj5ZKQ" label="~"/>
+      <cardinality xmi:id="_oBNJ-AFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oBNxAAFDEe-bdPyfXj5ZKQ" source="_oBO_KQFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-util.uml#_oAEhgAFDEe-bdPyfXj5ZKQ"/>
+    <stereotypes xmi:id="_oBNxAQFDEe-bdPyfXj5ZKQ" name="Reference">
+      <modelElement href="Port%20Management%20System-util.uml#_oAEhggFDEe-bdPyfXj5ZKQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oBNxAgFDEe-bdPyfXj5ZKQ" text=""/>
+    <sourceRole xmi:id="_oBNxAwFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="">
+      <modelElement href="Port%20Management%20System-util.uml#_oAEhgQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBNxBAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBNxBQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oBNxBgFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="containerOperations" navigable="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n__pAwFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBNxBwFDEe-bdPyfXj5ZKQ" label="~"/>
+      <cardinality xmi:id="_oBNxCAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oBO_IAFDEe-bdPyfXj5ZKQ" source="_oBO_KQFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-util.uml#_oAEhgwFDEe-bdPyfXj5ZKQ"/>
+    <stereotypes xmi:id="_oBO_IQFDEe-bdPyfXj5ZKQ" name="Reference">
+      <modelElement href="Port%20Management%20System-util.uml#_oAFIkAFDEe-bdPyfXj5ZKQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oBO_IgFDEe-bdPyfXj5ZKQ" text=""/>
+    <sourceRole xmi:id="_oBO_IwFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="">
+      <modelElement href="Port%20Management%20System-util.uml#_oAEhhAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_JAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_JQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oBO_JgFDEe-bdPyfXj5ZKQ" aggregationKind="NONE" name="portOperations" navigable="true">
+      <modelElement href="Port%20Management%20System-util.uml#_oAAQEgFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_JwFDEe-bdPyfXj5ZKQ" label="~"/>
+      <cardinality xmi:id="_oBO_KAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oBO_KQFDEe-bdPyfXj5ZKQ" name="Utils" associationsOut="_oBNJ8AFDEe-bdPyfXj5ZKQ _oBNxAAFDEe-bdPyfXj5ZKQ _oBO_IAFDEe-bdPyfXj5ZKQ">
+    <modelElement href="Port%20Management%20System-util.uml#_n_kLMAFDEe-bdPyfXj5ZKQ"/>
+    <visualProperties xmi:id="_oBO_KgFDEe-bdPyfXj5ZKQ" position="30.0,30.0"/>
+    <visibility xmi:id="_oBO_KwFDEe-bdPyfXj5ZKQ" label="+"/>
+    <attributes xmi:id="_oBO_LAFDEe-bdPyfXj5ZKQ" defaultValue="new ShipOperations()" name="shipOperations" staticAttribute="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n__pAAFDEe-bdPyfXj5ZKQ"/>
+      <stereotypes xmi:id="_oBO_LQFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-util.uml#_n__pAgFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_oBO_LgFDEe-bdPyfXj5ZKQ" label="~"/>
+      <cardinality xmi:id="_oBO_LwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oBO_MAFDEe-bdPyfXj5ZKQ" name="ShipOperations">
+        <modelElement href="Port%20Management%20System-util.uml#_n_0C0gFDEe-bdPyfXj5ZKQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oBO_MQFDEe-bdPyfXj5ZKQ" defaultValue="new ContainerOperations()" name="containerOperations" staticAttribute="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n__pAwFDEe-bdPyfXj5ZKQ"/>
+      <stereotypes xmi:id="_oBO_MgFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-util.uml#_oAAQEQFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_oBO_MwFDEe-bdPyfXj5ZKQ" label="~"/>
+      <cardinality xmi:id="_oBO_NAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oBO_NQFDEe-bdPyfXj5ZKQ" name="ContainerOperations">
+        <modelElement href="Port%20Management%20System-util.uml#_n_y0sAFDEe-bdPyfXj5ZKQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oBO_NgFDEe-bdPyfXj5ZKQ" defaultValue="new PortOperations()" name="portOperations">
+      <modelElement href="Port%20Management%20System-util.uml#_oAAQEgFDEe-bdPyfXj5ZKQ"/>
+      <stereotypes xmi:id="_oBO_NwFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-util.uml#_oAAQFAFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_oBO_OAFDEe-bdPyfXj5ZKQ" label="~"/>
+      <cardinality xmi:id="_oBO_OQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oBO_OgFDEe-bdPyfXj5ZKQ" name="PortOperations">
+        <modelElement href="Port%20Management%20System-util.uml#_n_0C0AFDEe-bdPyfXj5ZKQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oBO_OwFDEe-bdPyfXj5ZKQ" name="Utils">
+      <modelElement href="Port%20Management%20System-util.uml#_n_lZUAFDEe-bdPyfXj5ZKQ"/>
+      <keywords xmi:id="_oBO_PAFDEe-bdPyfXj5ZKQ" keyword="create"/>
+      <stereotypes xmi:id="_oBO_PQFDEe-bdPyfXj5ZKQ" name="LegacyStyledElement">
+        <modelElement href="Port%20Management%20System-util.uml#_n_lZUwFDEe-bdPyfXj5ZKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_oBO_PgFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_PwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_QAFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_lZVAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_QQFDEe-bdPyfXj5ZKQ" name="Utils">
+          <modelElement href="Port%20Management%20System-util.uml#_n_kLMAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oBO_QgFDEe-bdPyfXj5ZKQ" name="mainMenu" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_mAYAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_QwFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_RAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_RQFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_mAYQFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_RgFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oBO_RwFDEe-bdPyfXj5ZKQ" name="calculateDistance" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_nOgAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_SAFDEe-bdPyfXj5ZKQ" label="-"/>
+      <cardinality xmi:id="_oBO_SQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_SgFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_nOhgFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_SwFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_TAFDEe-bdPyfXj5ZKQ" name="lat1">
+        <modelElement href="Port%20Management%20System-util.uml#_n_nOgQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_TQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_TgFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_TwFDEe-bdPyfXj5ZKQ" name="lon1">
+        <modelElement href="Port%20Management%20System-util.uml#_n_nOggFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_UAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_UQFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_UgFDEe-bdPyfXj5ZKQ" name="lat2">
+        <modelElement href="Port%20Management%20System-util.uml#_n_nOgwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_UwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_VAFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_VQFDEe-bdPyfXj5ZKQ" name="lon2">
+        <modelElement href="Port%20Management%20System-util.uml#_n_nOhAFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_VgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_VwFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_WAFDEe-bdPyfXj5ZKQ" name="unit">
+        <modelElement href="Port%20Management%20System-util.uml#_n_nOhQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_WQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_WgFDEe-bdPyfXj5ZKQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_WwFDEe-bdPyfXj5ZKQ" name="createAContainer" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_6JcQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_XAFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_XQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_XgFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_6JdQFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_XwFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-util.uml#_n_47UAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_YAFDEe-bdPyfXj5ZKQ" name="ID">
+        <modelElement href="Port%20Management%20System-util.uml#_n_6JcgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_YQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_YgFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_YwFDEe-bdPyfXj5ZKQ" name="weight">
+        <modelElement href="Port%20Management%20System-util.uml#_n_6JcwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_ZAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_ZQFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_ZgFDEe-bdPyfXj5ZKQ" name="heavyType">
+        <modelElement href="Port%20Management%20System-util.uml#_n_6JdAFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_ZwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_aAFDEe-bdPyfXj5ZKQ" name="Optional">
+          <modelElement href="Port%20Management%20System-util.uml#_n_5iYQFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_aQFDEe-bdPyfXj5ZKQ" name="createAShip" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_7XkAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_agFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_awFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_bAFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XmwFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_bQFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_bgFDEe-bdPyfXj5ZKQ" name="ID">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XkQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_bwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_cAFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_cQFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XkgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_cgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_cwFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_dAFDEe-bdPyfXj5ZKQ" name="totalWeightCapacity">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XkwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_dQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_dgFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_dwFDEe-bdPyfXj5ZKQ" name="maxNumberOfAllContainers">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XlAFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_eAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_eQFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_egFDEe-bdPyfXj5ZKQ" name="maxNumberOfHeavyContainers">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XlQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_ewFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_fAFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_fQFDEe-bdPyfXj5ZKQ" name="maxNumberOfRefrigeratedContainers">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XlgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_fgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_fwFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_gAFDEe-bdPyfXj5ZKQ" name="maxNumberOfLiquidContainers">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XlwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_gQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_ggFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_gwFDEe-bdPyfXj5ZKQ" name="fuelConsumptionPerKM">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XmAFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_hAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_hQFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_hgFDEe-bdPyfXj5ZKQ" name="tankCapacity">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XmQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_hwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_iAFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_iQFDEe-bdPyfXj5ZKQ" name="fuelInTank">
+        <modelElement href="Port%20Management%20System-util.uml#_n_7XmgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_igFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_iwFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_jAFDEe-bdPyfXj5ZKQ" name="createAPort" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_8lsAFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_jQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_jgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_jwFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_8ltAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_kAFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_kQFDEe-bdPyfXj5ZKQ" name="ID">
+        <modelElement href="Port%20Management%20System-util.uml#_n_8lsQFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_kgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_kwFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_lAFDEe-bdPyfXj5ZKQ" name="latitude">
+        <modelElement href="Port%20Management%20System-util.uml#_n_8lsgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_lQFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_lgFDEe-bdPyfXj5ZKQ" name="Double">
+          <modelElement href="Port%20Management%20System-util.uml#_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_lwFDEe-bdPyfXj5ZKQ" name="longitude">
+        <modelElement href="Port%20Management%20System-util.uml#_n_8lswFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_mAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_mQFDEe-bdPyfXj5ZKQ" name="Double">
+          <modelElement href="Port%20Management%20System-util.uml#_n_7-oQFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_mgFDEe-bdPyfXj5ZKQ" name="checkIfShipExist" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_8ltQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_mwFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_nAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_nQFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9MwAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_ngFDEe-bdPyfXj5ZKQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_nwFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-util.uml#_n_8ltgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_oAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_oQFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_ogFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-util.uml#_n_8ltwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_owFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_pAFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_pQFDEe-bdPyfXj5ZKQ" name="checkIfContainerExist" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_9MwQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_pgFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_pwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oBO_qAFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9MxAFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_qQFDEe-bdPyfXj5ZKQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_qgFDEe-bdPyfXj5ZKQ" name="container">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9MwgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_qwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_rAFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-util.uml#_n_47UAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_rQFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9MwwFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_rgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_rwFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_sAFDEe-bdPyfXj5ZKQ" name="loadingShipRestrictions" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_9MxQFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_sQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_sgFDEe-bdPyfXj5ZKQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_oBO_swFDEe-bdPyfXj5ZKQ">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9z0AFDEe-bdPyfXj5ZKQ"/>
+        <type xmi:id="_oBO_tAFDEe-bdPyfXj5ZKQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oBO_tQFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9MxgFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_tgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_twFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_uAFDEe-bdPyfXj5ZKQ" name="loadAContainer" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_9z0gFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_uQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_ugFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oBO_uwFDEe-bdPyfXj5ZKQ" name="container">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9z0wFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_vAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_vQFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-util.uml#_n_47UAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_vgFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9z1AFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_vwFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_wAFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_wQFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-util.uml#_n_9z1QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_wgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_wwFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_xAFDEe-bdPyfXj5ZKQ" name="unloadAContainer" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_-a4AFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_xQFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_xgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oBO_xwFDEe-bdPyfXj5ZKQ" name="container">
+        <modelElement href="Port%20Management%20System-util.uml#_n_-a4QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_yAFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_yQFDEe-bdPyfXj5ZKQ" name="Container">
+          <modelElement href="Port%20Management%20System-util.uml#_n_47UAFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_ygFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-util.uml#_n_-a4gFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_ywFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_zAFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_zQFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-util.uml#_n_-a4wFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_zgFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_zwFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_0AFDEe-bdPyfXj5ZKQ" name="sailShipToPort" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n_-a5AFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_0QFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_0gFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oBO_0wFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-util.uml#_n_-a5QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_1AFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_1QFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_1gFDEe-bdPyfXj5ZKQ" name="port">
+        <modelElement href="Port%20Management%20System-util.uml#_n_-a5gFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_1wFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_2AFDEe-bdPyfXj5ZKQ" name="Port">
+          <modelElement href="Port%20Management%20System-util.uml#_n_0p4QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oBO_2QFDEe-bdPyfXj5ZKQ" name="refuel" staticOperation="true">
+      <modelElement href="Port%20Management%20System-util.uml#_n__B8AFDEe-bdPyfXj5ZKQ"/>
+      <visibility xmi:id="_oBO_2gFDEe-bdPyfXj5ZKQ" label="+"/>
+      <cardinality xmi:id="_oBO_2wFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oBO_3AFDEe-bdPyfXj5ZKQ" name="ship">
+        <modelElement href="Port%20Management%20System-util.uml#_n__B8QFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_3QFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_3gFDEe-bdPyfXj5ZKQ" name="Ship">
+          <modelElement href="Port%20Management%20System-util.uml#_n_1Q8QFDEe-bdPyfXj5ZKQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oBO_3wFDEe-bdPyfXj5ZKQ" name="fuelAmount">
+        <modelElement href="Port%20Management%20System-util.uml#_n__B8gFDEe-bdPyfXj5ZKQ"/>
+        <cardinality xmi:id="_oBO_4AFDEe-bdPyfXj5ZKQ" label="1" max="1" min="1"/>
+        <type xmi:id="_oBO_4QFDEe-bdPyfXj5ZKQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
